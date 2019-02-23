@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "itemId": "1",
+      "price": "45",
+      "imageUrl": "someUrl"
+    },
+    {
+      "itemId": "2",
+      "price": "55",
+      "imageUrl": "someUrl"
+    },
+    {
+        "itemId": "3",
+        "price": "45",
+        "imageUrl": "someUrl"
+    },
+    {
+        "itemId": "2",
+        "price": "55",
+        "imageUrl": "someUrl"
+    },
+    {
+        "itemId": "1",
+        "price": "45",
+        "imageUrl": "someUrl"
+    },
+    {
+        "itemId": "2",
+        "price": "55",
+        "imageUrl": "someUrl"
+    },
+    {
+        "itemId": "3",
+        "price": "45",
+        "imageUrl": "someUrl"
+    },
+    {
+        "itemId": "5",
+        "price": "55",
+        "imageUrl": "someUrl"
+    },
+    {
+        "itemId": "2",
+        "price": "55",
+        "imageUrl": "someUrl"
+    },
+    {
+        "itemId": "1",
+        "price": "45",
+        "imageUrl": "someUrl"
+    },
+    {
+        "itemId": "2",
+        "price": "55",
+        "imageUrl": "someUrl"
+    },
+    {
+        "itemId": "3",
+        "price": "45",
+        "imageUrl": "someUrl"
+    },
+    {
+        "itemId": "5",
+        "price": "55",
+        "imageUrl": "someUrl"
+    }
+  ],
+  "promotions": [
+    {
+      "promotionId": "4",
+      "type": "BOGO",
+      "condition": {
+        "buyItemId": "1",
+        "getItemId": "2"
+      }
+    },
+    {
+      "promotionId": "5",
+      "type": "PERCENT",
+      "condition": {
+        "items": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      "value": "20"
+    },
+    {
+      "promotionId": "6",
+      "type": "AMOUNT",
+      "value": "10"
+    }
+  ]
+}
