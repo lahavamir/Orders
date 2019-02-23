@@ -22,7 +22,6 @@
 		291FE5EB2202F1D000CAF0D8 /* UICollection extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291FE5EA2202F1D000CAF0D8 /* UICollection extention.swift */; };
 		291FE5F22203124000CAF0D8 /* OrderListViewController + CollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291FE5F12203124000CAF0D8 /* OrderListViewController + CollectionViewDelegate.swift */; };
 		291FE5F42203126300CAF0D8 /* OrderListViewController + CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291FE5F32203126300CAF0D8 /* OrderListViewController + CollectionViewDataSource.swift */; };
-		291FE5F622031D5600CAF0D8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 291FE5F522031D5600CAF0D8 /* Podfile */; };
 		291FE5F822033A5000CAF0D8 /* OrderListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291FE5F722033A5000CAF0D8 /* OrderListModel.swift */; };
 		291FE5FA22033E5300CAF0D8 /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291FE5F922033E5300CAF0D8 /* OrderListViewModel.swift */; };
 		291FE60222036E0700CAF0D8 /* Double extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291FE60122036E0700CAF0D8 /* Double extention.swift */; };
@@ -41,7 +40,6 @@
 		29FD96E222203CC400F956BE /* TotalAmountFooterCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29FD96E022203CC400F956BE /* TotalAmountFooterCollectionReusableView.xib */; };
 		29FEA28E221479CC0089E3F0 /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FEA28D221479CC0089E3F0 /* APIServiceProtocol.swift */; };
 		29FEA29022147A560089E3F0 /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FEA28F22147A560089E3F0 /* MockAPIService.swift */; };
-		6A13C4287A0AE85ED376AC26 /* Pods_Hotels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE8C35CBE271D571815473F /* Pods_Hotels.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +81,6 @@
 		291FE5EA2202F1D000CAF0D8 /* UICollection extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollection extention.swift"; sourceTree = "<group>"; };
 		291FE5F12203124000CAF0D8 /* OrderListViewController + CollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderListViewController + CollectionViewDelegate.swift"; sourceTree = "<group>"; };
 		291FE5F32203126300CAF0D8 /* OrderListViewController + CollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderListViewController + CollectionViewDataSource.swift"; sourceTree = "<group>"; };
-		291FE5F522031D5600CAF0D8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		291FE5F722033A5000CAF0D8 /* OrderListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListModel.swift; sourceTree = "<group>"; };
 		291FE5F922033E5300CAF0D8 /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 		291FE60122036E0700CAF0D8 /* Double extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double extention.swift"; sourceTree = "<group>"; };
@@ -112,7 +109,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A13C4287A0AE85ED376AC26 /* Pods_Hotels.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,10 +132,9 @@
 		291FE5932202DD4400CAF0D8 = {
 			isa = PBXGroup;
 			children = (
-				291FE5F522031D5600CAF0D8 /* Podfile */,
 				291FE59E2202DD4400CAF0D8 /* example */,
-				291FE5B32202DD4700CAF0D8 /* HotelsTests */,
-				291FE5BE2202DD4700CAF0D8 /* HotelsUITests */,
+				291FE5B32202DD4700CAF0D8 /* OrderTests */,
+				291FE5BE2202DD4700CAF0D8 /* OrderUITests */,
 				291FE59D2202DD4400CAF0D8 /* Products */,
 				EFDCED3E8BA874AD1ED6C862 /* Pods */,
 				B6161B9473C88E4118C9FE30 /* Frameworks */,
@@ -174,22 +169,22 @@
 			path = example;
 			sourceTree = "<group>";
 		};
-		291FE5B32202DD4700CAF0D8 /* HotelsTests */ = {
+		291FE5B32202DD4700CAF0D8 /* OrderTests */ = {
 			isa = PBXGroup;
 			children = (
 				291FE5B42202DD4700CAF0D8 /* HotelsTests.swift */,
 				291FE5B62202DD4700CAF0D8 /* Info.plist */,
 			);
-			path = HotelsTests;
+			path = OrderTests;
 			sourceTree = "<group>";
 		};
-		291FE5BE2202DD4700CAF0D8 /* HotelsUITests */ = {
+		291FE5BE2202DD4700CAF0D8 /* OrderUITests */ = {
 			isa = PBXGroup;
 			children = (
 				291FE5BF2202DD4700CAF0D8 /* HotelsUITests.swift */,
 				291FE5C12202DD4700CAF0D8 /* Info.plist */,
 			);
-			path = HotelsUITests;
+			path = OrderUITests;
 			sourceTree = "<group>";
 		};
 		291FE5CD2202DD5000CAF0D8 /* MealList */ = {
@@ -385,7 +380,6 @@
 				291FE5982202DD4400CAF0D8 /* Sources */,
 				291FE5992202DD4400CAF0D8 /* Frameworks */,
 				291FE59A2202DD4400CAF0D8 /* Resources */,
-				C65110774F1A095B3CC9EC2F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -487,7 +481,6 @@
 				291FE5A52202DD4400CAF0D8 /* Main.storyboard in Resources */,
 				29A4EF5F222049DB00A8F5AC /* OrderListHeader.xib in Resources */,
 				29FD96E222203CC400F956BE /* TotalAmountFooterCollectionReusableView.xib in Resources */,
-				291FE5F622031D5600CAF0D8 /* Podfile in Resources */,
 				291FE5E22202E2E600CAF0D8 /* OrderListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,34 +508,14 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Hotels-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C65110774F1A095B3CC9EC2F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Hotels/Pods-Hotels-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DeepDiff/DeepDiff.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeepDiff.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hotels/Pods-Hotels-frameworks.sh\"\n";
+			shellScript = "
+";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
