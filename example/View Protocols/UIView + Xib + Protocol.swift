@@ -25,7 +25,6 @@ extension ReusableView where Self:UIView {
     }
 }
 
-
 protocol Xibable {
     
     static var nibName:String {get}
