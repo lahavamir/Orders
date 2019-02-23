@@ -48,7 +48,8 @@ extension OrderListViewController: UICollectionViewDelegate, UICollectionViewDel
             
             // dequeue footer
             guard let view = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: TotalAmountFooterCollectionReusableView.uniqueIdentifier, for: indexPath) as? TotalAmountFooterCollectionReusableView, let data = viewModel.totalOrderDetailViewModel else { return UICollectionReusableView()}
-                
+            
+                // bind data
                 view.bind(data: data)
                 
                 return view
