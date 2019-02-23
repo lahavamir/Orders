@@ -60,16 +60,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		291FE59C2202DD4400CAF0D8 /* Hotels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hotels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		291FE59C2202DD4400CAF0D8 /* Orders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		291FE59F2202DD4400CAF0D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		291FE5A42202DD4400CAF0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		291FE5A62202DD4700CAF0D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		291FE5A92202DD4700CAF0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		291FE5AB2202DD4700CAF0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		291FE5B02202DD4700CAF0D8 /* HotelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		291FE5B02202DD4700CAF0D8 /* OrdersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrdersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		291FE5B42202DD4700CAF0D8 /* HotelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsTests.swift; sourceTree = "<group>"; };
 		291FE5B62202DD4700CAF0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		291FE5BB2202DD4700CAF0D8 /* HotelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		291FE5BB2202DD4700CAF0D8 /* OrdersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrdersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		291FE5BF2202DD4700CAF0D8 /* HotelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsUITests.swift; sourceTree = "<group>"; };
 		291FE5C12202DD4700CAF0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		291FE5D42202DD9C00CAF0D8 /* Coordinator Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Coordinator Protocol.swift"; sourceTree = "<group>"; };
@@ -144,9 +144,9 @@
 		291FE59D2202DD4400CAF0D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				291FE59C2202DD4400CAF0D8 /* Hotels.app */,
-				291FE5B02202DD4700CAF0D8 /* HotelsTests.xctest */,
-				291FE5BB2202DD4700CAF0D8 /* HotelsUITests.xctest */,
+				291FE59C2202DD4400CAF0D8 /* Orders.app */,
+				291FE5B02202DD4700CAF0D8 /* OrdersTests.xctest */,
+				291FE5BB2202DD4700CAF0D8 /* OrdersUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -372,9 +372,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		291FE59B2202DD4400CAF0D8 /* Hotels */ = {
+		291FE59B2202DD4400CAF0D8 /* Orders */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 291FE5C42202DD4700CAF0D8 /* Build configuration list for PBXNativeTarget "Hotels" */;
+			buildConfigurationList = 291FE5C42202DD4700CAF0D8 /* Build configuration list for PBXNativeTarget "Orders" */;
 			buildPhases = (
 				BB73445956DC74DAFBA41793 /* [CP] Check Pods Manifest.lock */,
 				291FE5982202DD4400CAF0D8 /* Sources */,
@@ -385,14 +385,14 @@
 			);
 			dependencies = (
 			);
-			name = Hotels;
+			name = Orders;
 			productName = Hotels;
-			productReference = 291FE59C2202DD4400CAF0D8 /* Hotels.app */;
+			productReference = 291FE59C2202DD4400CAF0D8 /* Orders.app */;
 			productType = "com.apple.product-type.application";
 		};
-		291FE5AF2202DD4700CAF0D8 /* HotelsTests */ = {
+		291FE5AF2202DD4700CAF0D8 /* OrdersTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 291FE5C72202DD4700CAF0D8 /* Build configuration list for PBXNativeTarget "HotelsTests" */;
+			buildConfigurationList = 291FE5C72202DD4700CAF0D8 /* Build configuration list for PBXNativeTarget "OrdersTests" */;
 			buildPhases = (
 				291FE5AC2202DD4700CAF0D8 /* Sources */,
 				291FE5AD2202DD4700CAF0D8 /* Frameworks */,
@@ -403,14 +403,14 @@
 			dependencies = (
 				291FE5B22202DD4700CAF0D8 /* PBXTargetDependency */,
 			);
-			name = HotelsTests;
+			name = OrdersTests;
 			productName = HotelsTests;
-			productReference = 291FE5B02202DD4700CAF0D8 /* HotelsTests.xctest */;
+			productReference = 291FE5B02202DD4700CAF0D8 /* OrdersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		291FE5BA2202DD4700CAF0D8 /* HotelsUITests */ = {
+		291FE5BA2202DD4700CAF0D8 /* OrdersUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 291FE5CA2202DD4700CAF0D8 /* Build configuration list for PBXNativeTarget "HotelsUITests" */;
+			buildConfigurationList = 291FE5CA2202DD4700CAF0D8 /* Build configuration list for PBXNativeTarget "OrdersUITests" */;
 			buildPhases = (
 				291FE5B72202DD4700CAF0D8 /* Sources */,
 				291FE5B82202DD4700CAF0D8 /* Frameworks */,
@@ -421,9 +421,9 @@
 			dependencies = (
 				291FE5BD2202DD4700CAF0D8 /* PBXTargetDependency */,
 			);
-			name = HotelsUITests;
+			name = OrdersUITests;
 			productName = HotelsUITests;
-			productReference = 291FE5BB2202DD4700CAF0D8 /* HotelsUITests.xctest */;
+			productReference = 291FE5BB2202DD4700CAF0D8 /* OrdersUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -449,7 +449,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 291FE5972202DD4400CAF0D8 /* Build configuration list for PBXProject "Hotels" */;
+			buildConfigurationList = 291FE5972202DD4400CAF0D8 /* Build configuration list for PBXProject "Orders" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -462,9 +462,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				291FE59B2202DD4400CAF0D8 /* Hotels */,
-				291FE5AF2202DD4700CAF0D8 /* HotelsTests */,
-				291FE5BA2202DD4700CAF0D8 /* HotelsUITests */,
+				291FE59B2202DD4400CAF0D8 /* Orders */,
+				291FE5AF2202DD4700CAF0D8 /* OrdersTests */,
+				291FE5BA2202DD4700CAF0D8 /* OrdersUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -572,12 +572,12 @@
 /* Begin PBXTargetDependency section */
 		291FE5B22202DD4700CAF0D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 291FE59B2202DD4400CAF0D8 /* Hotels */;
+			target = 291FE59B2202DD4400CAF0D8 /* Orders */;
 			targetProxy = 291FE5B12202DD4700CAF0D8 /* PBXContainerItemProxy */;
 		};
 		291FE5BD2202DD4700CAF0D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 291FE59B2202DD4400CAF0D8 /* Hotels */;
+			target = 291FE59B2202DD4400CAF0D8 /* Orders */;
 			targetProxy = 291FE5BC2202DD4700CAF0D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -772,7 +772,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hotels.app/Hotels";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orders.app/Orders";
 			};
 			name = Debug;
 		};
@@ -792,7 +792,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hotels.app/Hotels";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orders.app/Orders";
 			};
 			name = Release;
 		};
@@ -837,7 +837,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		291FE5972202DD4400CAF0D8 /* Build configuration list for PBXProject "Hotels" */ = {
+		291FE5972202DD4400CAF0D8 /* Build configuration list for PBXProject "Orders" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				291FE5C22202DD4700CAF0D8 /* Debug */,
@@ -846,7 +846,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		291FE5C42202DD4700CAF0D8 /* Build configuration list for PBXNativeTarget "Hotels" */ = {
+		291FE5C42202DD4700CAF0D8 /* Build configuration list for PBXNativeTarget "Orders" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				291FE5C52202DD4700CAF0D8 /* Debug */,
@@ -855,7 +855,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		291FE5C72202DD4700CAF0D8 /* Build configuration list for PBXNativeTarget "HotelsTests" */ = {
+		291FE5C72202DD4700CAF0D8 /* Build configuration list for PBXNativeTarget "OrdersTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				291FE5C82202DD4700CAF0D8 /* Debug */,
@@ -864,7 +864,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		291FE5CA2202DD4700CAF0D8 /* Build configuration list for PBXNativeTarget "HotelsUITests" */ = {
+		291FE5CA2202DD4700CAF0D8 /* Build configuration list for PBXNativeTarget "OrdersUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				291FE5CB2202DD4700CAF0D8 /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "291FE59B2202DD4400CAF0D8"
-               BuildableName = "Hotels.app"
-               BlueprintName = "Hotels"
-               ReferencedContainer = "container:Hotels.xcodeproj">
+               BuildableName = "Orders.app"
+               BlueprintName = "Orders"
+               ReferencedContainer = "container:Orders.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "291FE59B2202DD4400CAF0D8"
-            BuildableName = "Hotels.app"
-            BlueprintName = "Hotels"
-            ReferencedContainer = "container:Hotels.xcodeproj">
+            BuildableName = "Orders.app"
+            BlueprintName = "Orders"
+            ReferencedContainer = "container:Orders.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "291FE59B2202DD4400CAF0D8"
-            BuildableName = "Hotels.app"
-            BlueprintName = "Hotels"
-            ReferencedContainer = "container:Hotels.xcodeproj">
+            BuildableName = "Orders.app"
+            BlueprintName = "Orders"
+            ReferencedContainer = "container:Orders.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "291FE59B2202DD4400CAF0D8"
-            BuildableName = "Hotels.app"
-            BlueprintName = "Hotels"
-            ReferencedContainer = "container:Hotels.xcodeproj">
+            BuildableName = "Orders.app"
+            BlueprintName = "Orders"
+            ReferencedContainer = "container:Orders.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
